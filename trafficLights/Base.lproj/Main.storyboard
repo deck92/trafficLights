@@ -27,32 +27,46 @@
                                 <rect key="frame" x="142" y="374" width="130" height="130"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pV-2C-GaY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pV-2C-GaY">
                                 <rect key="frame" x="142" y="709" width="130" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="toggleButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dbb-Fp-dSz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="a4Y-YH-dbO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.31401" id="4IW-wz-qjj"/>
-                            <constraint firstItem="BEl-lW-3m0" firstAttribute="top" secondItem="a4Y-YH-dbO" secondAttribute="bottom" constant="20" id="DxP-o5-NxD"/>
-                            <constraint firstItem="BEl-lW-3m0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FzZ-Ms-WXG"/>
-                            <constraint firstItem="a4Y-YH-dbO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Jf3-V2-HRr"/>
-                            <constraint firstItem="a4Y-YH-dbO" firstAttribute="height" secondItem="BEl-lW-3m0" secondAttribute="height" id="LlC-u8-z4G"/>
-                            <constraint firstItem="a4Y-YH-dbO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Nsd-Mw-z1Z"/>
-                            <constraint firstItem="BEl-lW-3m0" firstAttribute="height" secondItem="lzq-Fm-P35" secondAttribute="height" id="QRk-14-LUl"/>
-                            <constraint firstItem="lzq-Fm-P35" firstAttribute="top" secondItem="BEl-lW-3m0" secondAttribute="bottom" constant="20" id="iVc-LF-OqN"/>
-                            <constraint firstItem="lzq-Fm-P35" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kos-vs-1BC"/>
-                            <constraint firstItem="BEl-lW-3m0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.31401" id="pKs-LE-yCo"/>
-                            <constraint firstItem="lzq-Fm-P35" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.31401" id="y4z-GH-vzt"/>
-                            <constraint firstItem="BEl-lW-3m0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="zUV-mQ-pD6"/>
+                            <constraint firstItem="a4Y-YH-dbO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="2z1-gt-VJJ"/>
+                            <constraint firstItem="lzq-Fm-P35" firstAttribute="height" secondItem="BEl-lW-3m0" secondAttribute="height" id="6bM-FL-cUQ"/>
+                            <constraint firstItem="BEl-lW-3m0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.31401" id="8lg-D1-I4E"/>
+                            <constraint firstItem="BEl-lW-3m0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.145089" id="9hR-6e-FQn"/>
+                            <constraint firstItem="9pV-2C-GaY" firstAttribute="height" secondItem="lzq-Fm-P35" secondAttribute="height" multiplier="0.307692" id="GMW-sl-RoC"/>
+                            <constraint firstItem="lzq-Fm-P35" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.31401" id="Low-d4-hqE"/>
+                            <constraint firstItem="BEl-lW-3m0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="M4I-qq-YPa"/>
+                            <constraint firstItem="a4Y-YH-dbO" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.145089" id="ScW-AX-x5T"/>
+                            <constraint firstItem="BEl-lW-3m0" firstAttribute="top" secondItem="a4Y-YH-dbO" secondAttribute="bottom" constant="20" id="VF5-oH-Ivv"/>
+                            <constraint firstItem="a4Y-YH-dbO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.31401" id="Zuq-JW-VVd"/>
+                            <constraint firstItem="9pV-2C-GaY" firstAttribute="top" secondItem="lzq-Fm-P35" secondAttribute="bottom" constant="205" id="dT8-ZW-gOS"/>
+                            <constraint firstItem="a4Y-YH-dbO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g9s-5E-Fg4"/>
+                            <constraint firstItem="9pV-2C-GaY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hWC-5Q-gQr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9pV-2C-GaY" secondAttribute="bottom" constant="113" id="o7w-aX-mv7"/>
+                            <constraint firstItem="lzq-Fm-P35" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pFI-33-tnk"/>
+                            <constraint firstItem="lzq-Fm-P35" firstAttribute="top" secondItem="BEl-lW-3m0" secondAttribute="bottom" constant="20" id="ukP-P8-pc8"/>
+                            <constraint firstItem="9pV-2C-GaY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.31401" id="yST-Jn-utD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="greenColorLabel" destination="lzq-Fm-P35" id="9v7-zg-jDz"/>
+                        <outlet property="redColorLabel" destination="a4Y-YH-dbO" id="23G-B2-Wnb"/>
+                        <outlet property="toggleTextButton" destination="9pV-2C-GaY" id="DRO-0u-Dag"/>
+                        <outlet property="yellowColorLabel" destination="BEl-lW-3m0" id="MmA-lj-F3H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
